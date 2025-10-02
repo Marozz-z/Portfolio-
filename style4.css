@@ -1,0 +1,264 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 15px 0;
+      margin-right: -20px;
+    }
+    .navbar-brand {
+      font-weight: bolder;
+      font-size: 1.5rem;
+      color: white;
+      margin-left: -100px;
+    }
+    .navbar-brand:hover {
+      color: white;
+    }
+    .navbar-nav .nav-link {
+      color: white;
+      font-weight: 500;
+      margin: 0 10px;
+    }
+    .navbar-nav .nav-link.active {
+      color: #20c997;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #20c997;
+      
+    }
+    .social-icons a {
+      color: white;
+      margin-left: 15px;
+      font-size: 1.2rem;
+      margin-right: -100px;
+      transition: color 1s ease;
+    }
+    .social-icons a:hover {
+      color: #20c997;
+    }
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero {
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn-outline-light {
+      color: #20c997;
+      border-color: #20c997;
+      border-radius: 30px;
+      padding: 10px 30px;
+      font-size: 1.1rem;
+      transition: background-color 1s ease;
+    }
+    .btn-outline-light:hover {
+      background-color: #20c997;
+      color: white;
+      border-color: #20c997;
+      
+    }
+    .custom-card {
+      background: rgba(0, 0, 0, 0.7); /* dark transparent background */
+      color: white;
+      margin: 0 10px; /* 10px margin left & right */
+    }
+    .highlight {
+      color: #20c997; /* green highlight */
+      font-weight: 600;
+    }
+    .info-item {
+      margin-bottom: 10px;
+    }
+    .stats {
+      margin-top: 40px;
+    }
+    .stats .col {
+      border-right: 1px solid #ddd;
+    }
+    .stats .col:last-child {
+      border-right: none;
+    }
+    .stats h3 {
+      font-weight: bold;
+    }
+    .ddd{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .ddd1{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .section-title {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 50px;
+      text-align: center;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #20c997;
+      margin: 10px auto 0;
+      border-radius: 20px;
+    }
+    .resume-card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+    .resume-card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-5px);
+    }
+    .resume-date {
+      display: inline-block;
+      background: #20c997;
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+    }
+    .resume-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .resume-subtitle {
+      font-size: 0.95rem;
+      color: #f87171; /* light red for institute/company */
+      margin-bottom: 10px;
+    }
+        .skills-section {
+            padding: 40px 0;
+        }
+        .skill-label {
+            font-size: 1rem;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .progress {
+            height: 8px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .progress-bar {
+            background-color: #20c997; /* Green color matching the image */
+            transition: background-color 0.5s ease;
+        }
+        .progress-bar:hover {
+            background-color: #00c02d; /* Darker green on hover */
+            
+        }
+        .percentage {
+            font-size: 1rem;
+            font-weight: 500;
+            color: white;
+            text-align: right;
+            position: absolute;
+            right: 0;
+            top: -5px;
+        }
+        .skill-item {
+            position: relative;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .img-zzzz{
+            width: 20%;
+            height: 20%;
+            border-radius: 100px;
+        }
+        .footer {
+            
+            padding: 20px 0;
+            font-size: 0.9rem;
+            color: #20c997;
+        }
+        .footer a {
+            color: #20c997;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .form-control {
+            border-radius: 0;
+            margin-bottom: 15px;
+        }
+        .contact-section {
+            padding: 60px 0;
+        }
+        .heading {
+            font-size: 4rem;
+            color: #e0e0e0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .address h6 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .address p {
+            margin-bottom: 10px;
+        }
+        .address i {
+            color: #20c997;
+            margin-right: 10px;
+        }
+        .dddd{
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px 0;
+            
+        }
+        .md{
+            background-color: transparent;
+            border-color: #20c997;
+            border-radius: 10px;
+            color: #20c997;
+        }
+        .md::placeholder{
+            color: #20c997;
+            background-color: transparent;
+            opacity: 0.4;
+        }
+        .mdd{
+            margin-left: -100px;
+        }
+.textd {
+    text-decoration: none;
+}
